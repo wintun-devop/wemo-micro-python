@@ -1,7 +1,8 @@
-## Ref-1( https://micropython.org/download/ESP32_GENERIC/)
-## Ref-2(https://medium.com/@andymule/micropython-on-esp32-e54998966e9)
-## Ref-3(https://micropython.org/download/ESP8266_GENERIC/)
-## Ref-3(https://docs.openmv.io/esp8266/tutorial/intro.html)
+### Ref-1( https://micropython.org/download/ESP32_GENERIC/)
+### Ref-2(https://medium.com/@andymule/micropython-on-esp32-e54998966e9)
+### Ref-3(https://micropython.org/download/ESP8266_GENERIC/)
+### Ref-4(https://docs.openmv.io/esp8266/tutorial/intro.html)
+### Ref-5-machine library (https://docs.micropython.org/en/latest/library/machine.html)
 
 ## virtial environment set-up
 ```
