@@ -2,7 +2,7 @@ from machine import Pin
 import time
 
 # Initialize the touch sensor pin
-touch_sensor = Pin(4, Pin.IN)
+touch_sensor = Pin(5, Pin.IN)
 
 while True:
     if touch_sensor.value() == 1:
