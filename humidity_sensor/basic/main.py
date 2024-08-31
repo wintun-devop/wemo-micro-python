@@ -1,9 +1,9 @@
-import dht
+import dht,time
 from machine import Pin
 
 # Initialize the DHT sensor
-sensor = dht.DHT22(Pin(4))  # Use DHT11(Pin(4)) if you're using DHT11
-
+# Use DHT22(Pin(4)) if you're using DHT22
+sensor = dht.DHT11(Pin(4))  
 while True:
     try:
         sensor.measure()
@@ -12,4 +12,6 @@ while True:
         print('Temperature: {}°C'.format(temp))
         print('Humidity: {}%'.format(hum))
     except OSError as e:
+        # print("e",e)
         print('Failed to read sensor.')
+    time.sleep(5)
